@@ -1,10 +1,7 @@
-import { useState } from "react";
 import hinata from "/hinata_2.png";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <audio controls>
