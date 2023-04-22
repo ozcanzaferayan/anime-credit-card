@@ -1,11 +1,12 @@
 import hinata from "/hinata_2.png";
+import sound from "/sound.mp3";
 import "./App.css";
 
 function App() {
   return (
     <>
       <audio controls>
-        <source src="/sound.mp3" type="audio/mpeg" />
+        <source src={sound} type="audio/mpeg" />
       </audio>
       <main>
         <img
